@@ -1,0 +1,17 @@
+.papers{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+.paper{
+
+  margin-top: 20px;
+  width: 250px;
+  height: 220px;
+  background: #07075f;
+  border-radius: 10px;
+
+}

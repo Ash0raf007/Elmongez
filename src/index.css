@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Noto Kufi Arabic","IBM Plex Sans Arabic", sans-serif !important; 
+  font-weight:200;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:tomato;
+
+
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+}
+/*text slide*/
+.intro{
+  display: inline-block;
+
+}
+.text{
+  font-size: 3rem;
+  letter-spacing: 5px;
+  border-left: 5px solid red;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(30),cussor .4s step-end infinite alternate;
+  display: inline-block;
+}
+@keyframes cursor {
+  50% {border-color: transparent;}
+  
+}
+@keyframes typing {
+  from {width: 0}
+  
+}
+
+@media (width < 900px ) {
+  .text{
+font-size: 1.8rem;
+  }
+}
+/*text slide*/
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #292c3b;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+
+  background-color: #d4d4d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* for Firefox */
+html {
+  scrollbar-color: #340c92 #3d4a59;
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+.scroll2Top {
+  background-color: rgba(25, 118, 210, 0.85);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1.4rem;
+}
+
+.scroll2Top:hover {
+  background-color: rgb(25, 118, 210);
+}
+
+@media (max-width: 600px) {
+  .scroll2Top {
+    width: 2.2rem;
+    height: 2.2rem;
+    opacity: 0.6;
+    font-size: 1rem;
+  }
+}
+
+

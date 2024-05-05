@@ -1,0 +1,52 @@
+.info{
+  display: flex;
+  align-items: center;
+}
+.title{
+  font-size: 20px;
+}
+.name{
+  background: rgba(154, 184, 218, 0.67);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(188, 53, 53, 0.2);
+
+}
+.name:hover{
+  background: rgba(58, 137, 226, 0.67);
+
+}
+.title{
+  background-color: rgb(128, 206, 128);
+  border-radius: 10px;
+  transition: all .4s ease-in-out;
+  cursor: pointer;
+}
+.title:hover{
+  transform: rotate(1deg) scale(.9);
+  transition: all .2s ease-in
+}
+
+
+.contact{
+color: white  !important;
+}
+.contact:hover{
+  background-color: rgba(0, 255, 255, 0.384) !important;
+  border-radius: 10px;
+
+}
+
+.contai{
+  background-image: url(../../assets/prog.jpeg) ;
+  padding-right: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(.3px);
+  -webkit-filter: blur(.3px);
+  height: 100vh;
+  padding-top: 10px;
+}
