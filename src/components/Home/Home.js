@@ -9,7 +9,7 @@ function Home() {
     
         <div className="paper">
           <img src="" alt="" />
-          <p style={{color:"white"}}>خدما
+          <p style={{color:"white"}}>خدماتنا  </p>
         </div>
 
         <div className="paper">
