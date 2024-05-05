@@ -3,7 +3,7 @@
 }
 
 .color{
-  background-color: #157977;
+  background-color: rgba(18, 107, 107, 0.822);
 
   }
 
@@ -13,8 +13,7 @@
   font-size: 20px;
 }
 .dropdown-menu.show{
-  background-color: rgba(0, 255, 255, 0.521) !important;
-  border-radius: 10px;
+  background-color: rgba(5, 175, 175, 0.774) !important;
   margin-top: 10px;
 }
 .dropdown-menu.show:hover{
@@ -42,7 +41,8 @@ a.dropdown-item:hover{
 display: none;
   }
   .dropdown-menu.show{
-    background-color: whitesmoke !important;
+    background-color: inherit !important;
   
   }
+  
 }
