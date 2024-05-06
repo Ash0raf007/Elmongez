@@ -5,6 +5,7 @@ import './prog.css'
 function Prog() {
   return (
     <div className="contai">
+        <div className="container">
               <div className="intro">
     <h1 style={{color:"white"}} className="text"> قسم البرمجه</h1>
     </div>
@@ -30,6 +31,7 @@ className='contact'
       </details>
       </div>
     ))}
+  </div>
   </div>
   )
 }

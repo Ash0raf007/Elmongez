@@ -6,6 +6,8 @@ console.log(data[2].title3)
 function Statics() {
   return (
     <div className="contain">
+    <div className="container">
+
       <div className="intro">
       <h1 style={{color:"white"}} className="text">قسم الأحصاء </h1>
       </div>
@@ -30,11 +32,13 @@ className='contact'
           </a>
         </details>
       </div>
+  
     ))}
 
 
 <div style={{background:"red"}}>    333333333333setion messimng
 </div>
+  </div>
   </div>
   )
 }

@@ -5,6 +5,8 @@ import "./tadkek.css";
 function Tadkek() {
   return (
     <div className="contain">
+    <div className="container">
+
         <div className="intro">
         <h1 style={{color:"white"}} className="text"> قسم التدقيق اللغوى</h1>
         </div>
@@ -30,6 +32,7 @@ className='contact'
         </details>
         </div>
       ))}
+    </div>
     </div>
   );
 }

@@ -4,6 +4,8 @@ import './tahkem.css'
 function Tahkem() {
   return (
     <div className="contain">
+              <div className="container">
+
             <div className="intro">
       <h1 style={{color:"white"}} className="txt">التحكيم العلمى و التشريعى</h1>
     </div>
@@ -30,6 +32,7 @@ className='contact'
         </details>
         </div>
       ))}
+    </div>
     </div>
   )
 }

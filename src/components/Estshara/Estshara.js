@@ -6,6 +6,8 @@ import icon from "../../assets/icon.png";
 function Estshara() {
   return (
     <div className="contain">
+              <div className="container">
+
               <div className="intro">
     <h1 style={{color:"white"}} className="text">قسم الأستشارات العلميه</h1>
     </div>
@@ -32,6 +34,7 @@ className='contact'
       </details>
       </div>
     ))}
+  </div>
   </div>
   )
 }

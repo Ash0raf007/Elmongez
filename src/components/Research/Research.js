@@ -4,6 +4,7 @@ import "./reserch.css";
 function Research() {
   return (
     <div className="contain">
+          <div className="container">
         <div className="intro">
         <h1 style={{color:"white"}} className="text"> 
         قسم البحث العلمى
@@ -52,6 +53,7 @@ className='contact'
       </details>
 
       
+    </div>
     </div>
   )
 }
