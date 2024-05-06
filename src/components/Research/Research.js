@@ -5,13 +5,14 @@ function Research() {
   return (
     <div className="contain">
           <div className="container">
+
         <div className="intro">
         <h1 style={{color:"white"}} className="text"> 
         قسم البحث العلمى
         </h1>
         </div>
         <details className="deti">
-          <summary><h4 className="name intro">القسم النظري</h4></summary>
+          <summary><h4 className="name intro"> القسم النظري&#8659;</h4></summary>
       {data.map((item) => (
         <div key={item.id} className="info">
           <details className="deti">

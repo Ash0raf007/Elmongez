@@ -13,7 +13,9 @@ function Statics() {
       </div>
     {data.map((item) => (
       <div key={item.id} className="info">
+        
         <details className="deti">
+          
           <summary>
             <h4 className="name">{item.name}</h4>
           </summary>
