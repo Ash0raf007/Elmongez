@@ -22,44 +22,34 @@ function Research() {
           </summary>
 
           
-          <details className="deti">
-          <summary>
 
+
+        <div style={{marginRight:"20px"}}> 
         <h4 className="title intro">&#9737;{item.title1} &#8659;</h4>
-        </summary>
 
         
+<br />
         <p  className="deti CL intro">{item.details}</p> 
         <br />
         <p  className="deti CL intro">{item.details2}</p> 
 
-</details>
+<br />
 
 
 
-<details className="deti">
-<summary>
+
+
+
 <h4 className="title intro">&#9737;{item.title2} &#8659;</h4>
-</summary>
+<br />
 <p  className="deti CL intro">{item.details3}</p> 
-</details>
-
-<details className="deti">
-<summary>
-<h4 className="title intro">{item.title4} </h4>
-
-</summary>
+    <br />
+    <h4 className="title intro">&#9737;{item.title3}</h4>
+    <br />
 <p  className="deti CL intro">{item.details4}</p>
-
-</details>  
-
-<details className="deti">
-<summary>
-<h4 className="title intro">{item.title3}</h4>
-</summary>
-</details>
-    
-     
+  <br />
+  <h4 className="title intro">{item.title4} </h4>
+        </div>  
 
           <a
             href="https://api.whatsapp.com/send?phone=201009625904"
