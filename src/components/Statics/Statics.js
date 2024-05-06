@@ -38,8 +38,7 @@ className='contact'
     ))}
 
 
-<div style={{background:"red"}}>    333333333333setion messimng
-</div>
+
   </div>
   </div>
   )
