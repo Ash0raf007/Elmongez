@@ -2,7 +2,7 @@ import React from 'react'
 import data from "./data.json";
 import './statics.css'
 import icon from "../../assets/icon.png";
-
+console.log(data[2].title3)
 function Statics() {
   return (
     <div className="contain">
@@ -40,3 +40,5 @@ className='contact'
 }
 
 export default Statics
+//<p className="title">&#9737;{item.title0.title3} </p>
+//<p className="title">&#9737;{item.title0.title4} </p>

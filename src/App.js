@@ -16,6 +16,8 @@ import Footer from "./footer/Footer";
 const App = () => {
   return (
     <div>
+
+      
           <Section/>
       <NBAR/>
         <Routes>
@@ -32,6 +34,7 @@ const App = () => {
 
         </Routes>
         <Footer />
+        
 
     </div>
 
