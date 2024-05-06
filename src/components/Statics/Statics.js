@@ -19,6 +19,8 @@ function Statics() {
           </summary>
           <p className="title">&#9737;{item.title1}</p>
           <p className="title">&#9737;{item.title2} </p>
+          <p className="title">{item.title3} </p>
+          <p className="title">{item.title4} </p>
 
           <a
             href="https://api.whatsapp.com/send?phone=201009625904"
