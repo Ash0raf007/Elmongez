@@ -12,6 +12,7 @@ function Prog() {
             قسم البرمجه
           </h1>
         </div>
+        <div className="main">
         {data.map((item) => (
           <div key={item.id} className="info">
             <details className="deti">
@@ -34,6 +35,7 @@ function Prog() {
             </details>
           </div>
         ))}
+        </div>
       </div>
     </div>
   );

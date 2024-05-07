@@ -11,6 +11,8 @@ function Statics() {
       <div className="intro">
       <h1 style={{color:"white"}} className="text">قسم الأحصاء </h1>
       </div>
+      <div className="main">
+
     {data.map((item) => (
       <div key={item.id} className="info">
         
@@ -38,6 +40,7 @@ className='contact'
       </div>
   
     ))}
+    </div>
 
 
 

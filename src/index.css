@@ -18,6 +18,18 @@ a{
   display: inline-block;
 
 }
+.max{
+  width: 300px;
+
+}
+.main{
+  display: flex;
+  align-items: center;
+flex-wrap: wrap;
+gap: 10px;
+
+}
+
 .text{
   font-size: 3rem;
   letter-spacing: 5px;
@@ -106,4 +118,9 @@ html {
   }
 }
 
+@media (width < 900px ) { 
+  .main{
+justify-content: center;
+  }
+}
 

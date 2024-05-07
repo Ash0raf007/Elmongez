@@ -9,6 +9,8 @@ function Tahkem() {
             <div className="intro">
       <h1 style={{color:"white"}} className="txt">التحكيم العلمى و التشريعى</h1>
     </div>
+    <div className="main">
+
       {data.map((item) => (
         <div key={item.id} className="info">
           <details className="deti">
@@ -32,6 +34,7 @@ className='contact'
         </details>
         </div>
       ))}
+      </div>
     </div>
     </div>
   )

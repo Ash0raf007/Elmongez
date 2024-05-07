@@ -3,5 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+background-color: rgb(10, 44, 82);
+}
+.follow{
+color: white;
+font-weight: 500;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  padding-bottom: 5px;
 }

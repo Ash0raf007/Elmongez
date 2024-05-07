@@ -1,10 +1,14 @@
 import "./Home.css";
+
 function Home() {
   return (
     <div>
       <div className="intro">
         <p className="text">المنجز للدراسات وريادة الأعمال</p>
       </div>
+
+
+      
       <div className="papers">
     
         <div className="paper">

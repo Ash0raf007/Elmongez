@@ -13,6 +13,7 @@ function Research() {
         </div>
         <details className="deti">
           <summary><h4 className="name intro"> القسم النظري&#8659;</h4></summary>
+          <div className="main">
       {data.map((item) => (
         <div key={item.id} className="info">
           <details className="deti">
@@ -74,6 +75,7 @@ className='contact'
         </details>
         </div>
       ))}
+      </div>
       </details>
 
       

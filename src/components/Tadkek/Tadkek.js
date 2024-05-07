@@ -10,6 +10,8 @@ function Tadkek() {
         <div className="intro">
         <h1 style={{color:"white"}} className="text"> قسم التدقيق اللغوى</h1>
         </div>
+        <div className="main">
+
       {data.map((item) => (
         <div key={item.id} className="info">
           <details className="deti">
@@ -32,6 +34,7 @@ className='contact'
         </details>
         </div>
       ))}
+      </div>
     </div>
     </div>
   );
