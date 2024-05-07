@@ -30,13 +30,44 @@ a.dropdown-item:hover{
   transform: rotate(.5deg) scale(.9);
   transition: all .2s ease-in
 }
+a{
+  list-style: none;
+  position: relative;
+
+}
+a::before{
+  content: "";
+  background-color: rgb(107, 4, 21);
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  height: 3px;
+  width: 0;
+  transition: .3s ease-in-out;
+
+}
+a:hover::before{
+  content: "";
+  background-color: rgb(107, 4, 21);
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  height: 3px;
+  width: 100%;
+}
 @media (width < 900px ) { 
 
   .Side{
     visibility:visible;
     color: white !important;
 
-  }  
+  } 
+  a::before{
+    background-color: transparent;
+  } 
+  a:hover::before{
+    background-color: transparent;
+  }
   .none{
 display: none;
   }

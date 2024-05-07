@@ -3,7 +3,7 @@ import "./Section.css";
 import icon from "../../assets/icon.png";
 import icon1 from "../../assets/icon1.png";
 import icon2 from "../../assets/icon2.png";
-import icon3 from "../../assets/icon3.svg";
+import icon3 from "../../assets/icon3.png";
 
 
 function Section() {

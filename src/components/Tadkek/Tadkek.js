@@ -11,7 +11,6 @@ function Tadkek() {
         <h1 style={{color:"white"}} className="text"> قسم التدقيق اللغوى</h1>
         </div>
         <div className="main">
-
       {data.map((item) => (
         <div key={item.id} className="info">
           <details className="deti">
