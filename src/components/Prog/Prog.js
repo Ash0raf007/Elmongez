@@ -9,7 +9,7 @@ function Prog() {
         <div className="intro">
           <h1 style={{ color: "white" }} className="text">
             
-            قسم البرمجه
+          قسم البرمجه و التصميم
           </h1>
         </div>
         <div className="main">

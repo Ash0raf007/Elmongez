@@ -13,11 +13,13 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Statics from "./components/Statics/Statics";
 import Footer from "./footer/Footer";
+
 const App = () => {
   return (
     <div>
 
-      
+
+
           <Section/>
       <NBAR/>
         <Routes>

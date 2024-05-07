@@ -2,20 +2,32 @@
   {
     "id": 1,
     "name": "تطوير مواقع الويب",
-    "title1": "Front-end web development",
-    "title2":"Back-end web development"
+    "title1": "تطوير الوجهات الأماميه",
+    "title2":"تطوير الوجهات الخلفيه"
     },
   {
     "id": 2,
     "name": "تطوير تطبيقات الهاتف",
-    "title1":"Android system application development",
-    "title2": "IOS system application development "
+    "title1":"تطوير تطبيقات الاندرويد",
+    "title2": " تطوير تطبيقات IOS  "
 
   },
   {
     "id": 3,
     "name":"تحليل البيانات ",
-    "title1":"Excel&power BI",
-    "title2":"keylogger using python "
+    "title1":" اكسل وباور BI ",
+    "title2":"التحليل بالبايثون"
+  },
+  {
+"id":4,
+"name":"تصميم واجهات المواقع والهواتف",
+"title1":"تصاميم جذابه لواجهات المواقع ",
+"title2":"تصاميم جذابه لواجهات الهواتف"
+  },
+  {
+    "id":5,
+    "name":"الفوتوشوب والمونتاج",
+    "title1":"عمل تعديل للصور وانشاء تصاميم ",
+    "title2":"عمل مونتاج على الفيديوهات"
   }
 ]

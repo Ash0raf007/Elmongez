@@ -49,11 +49,9 @@ gap: 10px;
   
 }
 
-@media (width < 900px ) {
-  .text{
-font-size: 1.8rem;
-  }
-}
+
+
+
 /*text slide*/
 
 code {
@@ -122,5 +120,9 @@ html {
   .main{
 justify-content: center;
   }
-  
+  .text{
+    font-size: 1.8rem;
+      }
 }
+
+

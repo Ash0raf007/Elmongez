@@ -30,6 +30,7 @@ a.dropdown-item:hover{
   transform: rotate(.5deg) scale(.9);
   transition: all .2s ease-in
 }
+/*block underline*/
 a{
   list-style: none;
   position: relative;
@@ -55,6 +56,8 @@ a:hover::before{
   height: 3px;
   width: 100%;
 }
+/*block underline*/
+
 @media (width < 900px ) { 
 
   .Side{

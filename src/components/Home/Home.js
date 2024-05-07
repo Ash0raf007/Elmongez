@@ -10,11 +10,12 @@ function Home() {
 
       
       <div className="papers">
-    
-        <div className="paper">
+    <div className="paper">
           <img src="" alt="" />
           <p style={{color:"white"}}>خدماتنا  </p>
         </div>
+    
+      
 
         <div className="paper">
           <img src="" alt="" />
