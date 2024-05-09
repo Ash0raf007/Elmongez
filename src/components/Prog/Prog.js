@@ -16,12 +16,20 @@ function Prog() {
         {data.map((item) => (
           <div key={item.id} className="info">
             <details className="deti">
+            {item.name && (
               <summary>
                 <h4 className="name">{item.name}</h4>
               </summary>
+            )}
+              {item.title1 && (
               <p className="title">&#9737;{item.title1}</p>
+              )}
+                {item.title2 && (
               <p className="title">&#9737;{item.title2} </p>
-
+                )}
+                    {item.title3 && (
+              <p className="title">&#9737;{item.title3} </p>
+                )}
               <a
                 href="https://api.whatsapp.com/send?phone=201009625904"
                 alt=""

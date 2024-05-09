@@ -13,15 +13,17 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Statics from "./components/Statics/Statics";
 import Footer from "./footer/Footer";
+import Call from "./Call";
 
 const App = () => {
   return (
     <div>
-
+  
 
 
           <Section/>
       <NBAR/>
+<Call/>
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tadkek" element={<Tadkek />} />
@@ -33,6 +35,11 @@ const App = () => {
         <Route path="/programming" element={<Prog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path='*' element={
+          <div className="non">
+        <h1 className="notfound">عذرا الصفحه غير متوفره</h1>
+        </div>
+        }/>
 
         </Routes>
         <Footer />

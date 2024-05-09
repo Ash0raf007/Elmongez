@@ -1,0 +1,31 @@
+[{
+  "ID":1,
+  "Name":"الطب"
+  
+}
+,{
+  "ID":2,
+  "Name":"الصيدلة",
+  "Title1":"الصيدلة السريرية - Clinical Pharmacy",
+  "Title2":"علم الأدوية والسموم - Pharmacology and Toxicology",
+  "Title3":"الكيمياء الدوائية - Medical Chemistry",
+  "Title4":"الصيدلة الصناعية - Industrial Pharmacy",
+  "Title5":"تطوير الأدوية - Drug Development",
+  "Title6":"علم العقاقير - Pharmacology",
+  "Title7":"إدارة الصيدلية - Pharmacy Administration"
+
+},{
+  "ID":3,
+  "Name":"الطب البيطري"
+},{
+  "ID":4,
+  "Name":"كلية العلوم",
+  "Title1":"قسم الرياضيات",
+  "Title2":"قسم الفيزياء",
+  "Title3":"قسم الكيمياء",
+  "Title4":"قسم الجيولوجيا",
+  "Title5":"قسم علم النبات والميكروبيولوجي",
+  "Title6":"قسم علم الحيوان والحشرات"
+}
+
+]

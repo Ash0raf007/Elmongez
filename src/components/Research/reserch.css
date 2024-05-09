@@ -56,10 +56,12 @@ color: white  !important;
 .contain{
   background-image: url(../../assets/ui.jpg);
   padding-right: 5%;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   filter: blur(.3px);
   -webkit-filter: blur(.3px);
   height: 100vh;
+  width: auto;
+
 }
