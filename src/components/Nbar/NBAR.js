@@ -49,7 +49,8 @@ function NBAR() {
               <NavDropdown title="الأقسام" id="navbarScrollingDropdown">
                 <NavDropdown.Item>
                   <Link to="/tadkek">
-                    قسم التدقيق اللغوى</Link>
+                    قسم التدقيق اللغوى
+                    </Link>
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
@@ -57,18 +58,24 @@ function NBAR() {
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
-                  <Link to="/research">قسم البحث العلمى</Link>
+                  <Link to="/research">
+                    قسم البحث العلمى
+                  </Link>
                 </NavDropdown.Item>
 
                 <NavDropdown.Item>
-                  <Link to="/derasa">قسم دراسة الجدوى</Link>
+                  <Link to="/derasa">
+                    قسم دراسة الجدوى
+                    </Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
                   <Link to="/tahkem">
                     قسم التحكيم العلمى و التشريعى</Link>
                 </NavDropdown.Item>
                 <NavDropdown.Item>
-                  <Link to="/statics">قسم الأحصاء</Link>
+                  <Link to="/statics">
+                    قسم الأحصاء
+                    </Link>
                 </NavDropdown.Item>
                 
                 <NavDropdown.Item>
