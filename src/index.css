@@ -27,10 +27,7 @@ summary{
   cursor: pointer;
 }
 
-details{
-  all: unset;
-  cursor: pointer;  
-}
+
 
 .main{
   display: flex;
