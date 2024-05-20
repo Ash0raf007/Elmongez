@@ -3,6 +3,7 @@ import data from "./data.json";
 import './statics.css'
 import icon from "../../assets/icon.png";
 console.log(data[2].title3)
+//////
 function Statics() {
   return (
     <div className="contain">
