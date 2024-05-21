@@ -10,7 +10,7 @@ import Research from "./components/Research/Research";
 import Derasa from "./components/Derasa/Derasa";
 import Tahkem from "./components/Tahkem/Tahkem";
 import Contact from './components/Contact';
-import About from './components/About';
+import About from './components/About/About';
 import Statics from "./components/Statics/Statics";
 import Footer from "./footer/Footer";
 import Call from "./Call";
