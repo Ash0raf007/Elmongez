@@ -4,18 +4,13 @@ function Call() {
   return (
 <div>  
 <div className="text-wrapper">
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
-<p className='wrap'>الموقع قيد التطوير</p>
+ {[1,2,3,4,5,6,7,8,9,0,2,5,7].map((item)=>(
+
+  <p className='wrap'>الموقع قيد التطوير</p>
+
+))}
+
+
 
 </div>
 </div>
