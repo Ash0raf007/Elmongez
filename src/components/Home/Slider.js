@@ -19,6 +19,7 @@ function Slider() {
     },
 ]
   return (
+    <div className="container">
     <Carousel>
       {data.map((item) => (
         <Carousel.Item key={item.id}>
@@ -30,10 +31,11 @@ function Slider() {
               </Carousel.Item>
       ))}
 
-      
 
     
     </Carousel>
+          </div>
+
   );
 }
 

@@ -1,41 +1,50 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import Slider from "./Slider";
+
+import Card1 from "../card1/Card1";
+
+//import Slider from "./Slider";
 function Home() {
 
   return (
-    <div>
+    <div className="container">
       <div className="intro">
         <p className="text">المنجز للدراسات وريادة الأعمال</p>
       </div>
 
-      <Slider/>
-      <div className="papers">
-        <div className="paper">
-          <img src="" alt="" />
-          <p style={{ color: "white" }}>خدماتنا </p>
-        </div>
+      {/* <Slider/> */}
+      <h1>خدماتنا </h1>
+<h5>يقدم المركز كافة الخدمات المتعلقة بالبحث العلمي وريادة الأعمال   </h5>
+      <div className="mini">
+          <br />
+    <div className="sub">  
+    <h6 className="hsub">خدمات البحث العلمي </h6>
+    <Card1/>
+    <Card1/>
+    <Card1/>
+    <Card1/>
 
-    
-
-    
+</div> 
 
 
-        <div className="paper">
-          <img src="" alt="" />
-          <p>lorem</p>
-        </div>
 
-        <div className="paper">
-          <img src="" alt="" />
-          <p>lorem</p>
-        </div>
+  
 
-        <div className="paper">
-          <img src="" alt="" />
-          <p>مرحبا</p>
-        </div>
+
+  
       </div>
+      <div>
+  <div className="sub2">
+  <h6 className="hsub">ريادة الأعمال</h6>
+  <p> &#8226; يقدم المركز دراسات الجدوى حول المشاريع الكبيرة والصغيرة </p>
+</div>
+<div className="sub3">
+  <h6 className="hsub">البرمجة</h6>
+  <p>
+    &#8226; يقدم المركز الخدمات المتعلقة بالبرمجة والذكاء الاصطناعي ، وربط ذلك كله بالبحث العلمي  </p>
+</div>
+
+  </div>
 
       <h1> الأقسام</h1>
       <div className="papers">

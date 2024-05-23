@@ -1,3 +1,20 @@
+.mini{
+  display: flex;
+margin-top: 30px;
+justify-content: space-between;
+gap: 10px;
+}
+.sub{
+  display: flex;
+  gap: 10px;
+
+}
+.submini{
+display: flex;
+}
+.sub2{
+  margin-top: 20px;
+}
 .papers{
   display:flex;
   justify-content: center;
@@ -9,7 +26,7 @@
 .paper{
   width: 250px;
   border-radius: 10px;
-  color:white;
+  color:rgb(0, 0, 0);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -22,10 +39,45 @@
   border: 1px solid rgba(255, 255, 255, 0.91);
 margin: 10px;
 transition:0.5s ease-in-out;
+border: solid black;
   
 }
 .paper:hover{
 background-color: rgba(127, 255, 212, 0.479);
+cursor: pointer;
+
+}
+.border{
+  border: solid black 2px;
+  width: 290px;
+  height: 250px;
+background-color: rgb(214, 128, 15);
+color: black;
+display: flex;
+justify-content: center;
 }
 
+.border2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (width < 900px ) { 
+.mini{
+  flex-wrap: wrap;
+  text-align: justify;
 
+  justify-content: center;
+}
+.hsub{
+  display: flex;  
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.sub{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+}
