@@ -1,59 +1,55 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import React from "react";
+import Carousel from "react-bootstrap/Carousel";
 
 function Card2() {
-  const dataa=[
+  const data = [
     {
-      "id":1 ,
-      "name":"المساعدة في إنجاز الأبحاث المتعلقة بالمراحل التمهيدية للدراسات العليا"
-      ,"img2":"/logo192.png"
-  
+      id: 1,
+      name: "المساعدة في إنجاز الأبحاث المتعلقة بالمراحل التمهيدية للدراسات العليا",
+      img: "/logo192.png",
     },
     {
-      "id":2,
-      "name":"المساعدة في اختيار عناوين واقتراحات الرسائل العلمية لمرحتلي الماجستير والدكتوراه"
-    ,    "img2":"/logo192.png"
-  
+      id: 2,
+      name: "المساعدة في اختيار عناوين واقتراحات الرسائل العلمية لمرحتلي الماجستير والدكتوراه",
+      img: "/logo192.png",
     },
     {
-      "id":3 ,
-      "name":"المساعدة في كتابة البربوزال (الخطة) لكافة التخصصات عربي وانجليزي"
-    ,    "img2":"/logo192.png"
-  
+      id: 3,
+      name: "المساعدة في كتابة البربوزال (الخطة) لكافة التخصصات عربي وانجليزي",
+      img: "/logo192.png",
     },
     {
-      "id":4 ,
-      "name":"المساعدة في كتابة الرسالة لمرحلة الماجستير، والأطروحة لمرحلة الدكتوراه"
-    ,    "img2":"/logo192.png"
-  
+      id: 4,
+      name: "المساعدة في كتابة الرسالة لمرحلة الماجستير، والأطروحة لمرحلة الدكتوراه",
+      img: "/logo192.png",
     },
     {
-      "id":5 ,
-      "name":"المساعدة في المراجعة والصياغة لكافة الأعمال العلمية ",
-      "img2":"/logo192.png"
-  
-    }
-  ]
+      id: 5,
+      name: "المساعدة في المراجعة والصياغة لكافة الأعمال العلمية ",
+      img: "/logo192.png",
+    },
+  ];
   return (
     <div>
     <Carousel className="border">
-      {dataa.map((item) => (
-<Carousel.Item key={item.id}>
-{item.img && (
-<img src={item.img} width="100%" alt="" />
-)}
-        <Carousel.Caption className="border2">
-        {item.name && (
-          <p style={{color:"black",fontSize:"20px"}}>{item.name}</p>
-        )}
-        </Carousel.Caption>
-        </Carousel.Item>
+      {data.map((item) => (
+        <Carousel.Item key={item.id}>
+          {item.img && <img src={item.img} width="100%" alt="" />}
+          <Carousel.Caption className="border2">
+<div className="slideCard">
+            {item.name && (
+              <p >{item.name}</p>
 
-      
+            )}
+            </div>
+          </Carousel.Caption>
+        </Carousel.Item>
+        
       ))}
+
     </Carousel>
-    </div>
-  )
+  </div>
+  );
 }
 
-export default Card2
+export default Card2;

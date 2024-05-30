@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 
 import Card1 from "../card1/Card1";
+import Card2 from "../card2/Card2";
+import Card3 from "../card3/Card3";
+import Card4 from "../card4/Card4";
+
 
 //import Slider from "./Slider";
 function Home() {
@@ -9,33 +13,37 @@ function Home() {
   return (
     <div className="container">
       <div className="intro">
-        <p className="text">المنجز للدراسات وريادة الأعمال</p>
+        <p className="text" style={{fontWeight:"bold" }}>المنجز للدراسات وريادة الأعمال</p>
       </div>
 
       {/* <Slider/> */}
       <h1>خدماتنا </h1>
-<h5>يقدم المركز كافة الخدمات المتعلقة بالبحث العلمي وريادة الأعمال   </h5>
+<h5 >يقدم المركز كافة الخدمات المتعلقة بالبحث العلمي وريادة الأعمال   </h5>
       <div className="mini">
-          <br />
+<br />
+<div className="container">
+
+<div>  
+  <div>
+  <h6 className="hsub">خدمات البحث العلمي </h6>
+
+  </div>
     <div className="sub">  
-    <h6 className="hsub">خدمات البحث العلمي </h6>
-    <Card1/>
-    <Card1/>
-    <Card1/>
-    <Card1/>
+<Card1/>
+<Card2/>
+<Card3/>
+<Card4/>
 
 </div> 
+</div>
+</div>
 
-
-
-  
-
-
-  
       </div>
       <div>
   <div className="sub2">
+    <div>
   <h6 className="hsub">ريادة الأعمال</h6>
+  </div>
   <p> &#8226; يقدم المركز دراسات الجدوى حول المشاريع الكبيرة والصغيرة </p>
 </div>
 <div className="sub3">
