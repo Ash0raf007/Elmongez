@@ -3,6 +3,8 @@
 margin-top: 30px;
 justify-content: space-between;
 gap: 10px;
+flex-direction: column;
+
 }
 .sub{
   display: flex;
@@ -46,6 +48,7 @@ border: solid black;
 background-color: rgba(127, 255, 212, 0.479);
 cursor: pointer;
 
+
 }
 .border{
   border: solid black 2px;
@@ -80,5 +83,6 @@ justify-content: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 }

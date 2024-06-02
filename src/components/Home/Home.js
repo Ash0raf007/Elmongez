@@ -20,12 +20,12 @@ function Home() {
       <h1>خدماتنا </h1>
 <h5 >يقدم المركز كافة الخدمات المتعلقة بالبحث العلمي وريادة الأعمال   </h5>
       <div className="mini">
+      <h6 className="hsub"> &#x2713; خدمات البحث العلمي </h6>
+
 <br />
-<div className="container">
 
 <div>  
   <div>
-  <h6 className="hsub">خدمات البحث العلمي </h6>
 
   </div>
     <div className="sub">  
@@ -36,18 +36,17 @@ function Home() {
 
 </div> 
 </div>
-</div>
 
       </div>
       <div>
   <div className="sub2">
     <div>
-  <h6 className="hsub">ريادة الأعمال</h6>
+  <h6 className="hsub"> &#x2713; ريادة الأعمال</h6>
   </div>
   <p> &#8226; يقدم المركز دراسات الجدوى حول المشاريع الكبيرة والصغيرة </p>
 </div>
 <div className="sub3">
-  <h6 className="hsub">البرمجة</h6>
+  <h6 className="hsub"> &#x2713; البرمجة</h6>
   <p>
     &#8226; يقدم المركز الخدمات المتعلقة بالبرمجة والذكاء الاصطناعي ، وربط ذلك كله بالبحث العلمي  </p>
 </div>
@@ -83,6 +82,11 @@ function Home() {
           <div className="paper">
           <Link to="/statics">
                     قسم الأحصاء
+                    </Link>
+          </div>
+          <div className="paper" style={{whiteSpace:"nowrap",fontSize:"13px"}}>
+          <Link to="/tansek">
+          قسم التنسيق والطباعه و الاخراج المطبعى 
                     </Link>
           </div>
 

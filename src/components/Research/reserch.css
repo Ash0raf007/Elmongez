@@ -61,7 +61,8 @@ color: white  !important;
   background-repeat: no-repeat;
   filter: blur(.3px);
   -webkit-filter: blur(.3px);
+  height: 100dvh;
   height: 100vh;
-  width: auto;
+    width: auto;
 
 }

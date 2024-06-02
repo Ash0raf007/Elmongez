@@ -52,6 +52,7 @@ background-color: rgba(0, 255, 255, 0.384) ;
   background-repeat: no-repeat;
   filter: blur(.3px);
   -webkit-filter: blur(.3px);
+  height: 100dvh;
   height: 100vh;
-  padding-top: 10px;
+    padding-top: 10px;
 }

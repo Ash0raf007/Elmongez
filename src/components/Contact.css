@@ -1,0 +1,148 @@
+.contact-us{
+  background-color: rgba(20, 19, 19, 0.788);
+}
+section.contact-us .icon-envelope {
+  color:  rgb(161 161 170);
+  margin-right: 1rem;
+  font-size: 1.8rem;
+
+}
+
+section.contact-us .title {
+  font-size: 2.1rem;
+  color: rgb(244 244 245);
+  margin-bottom: 1rem;
+  background-color: blue;
+
+}
+
+section.contact-us .sub-title {
+  color: rgb(244 244 245);
+  margin-bottom: 2rem;
+  line-height: 1.65rem;
+  margin-right: 20px;
+font-size: 17px;
+}
+
+section.contact-us label {
+  color:rgb(244 244 245);
+}
+
+section.contact-us #email,
+section.contact-us #message {
+  all: unset;
+  background-color: rgba(63, 63, 70, 0.15);
+  border: 2px solid rgb(188, 188, 202);
+  width: 16rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 1.1rem;
+}
+.contparentt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contparent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mailling{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ section.contact-us #email,
+section.contact-us #message {
+  background-color: rgba(227, 233, 220, 0.808) !important;
+  color: rgb(2, 0, 0) ;
+}
+section.contact-us #email:focus,
+section.contact-us #message:focus {
+  border: 1px solid rgb(68, 146, 136);
+}
+button:disabled{
+opacity: 0.4;
+cursor: not-allowed;
+}
+
+section.contact-us #email:hover,
+section.contact-us #message:hover {
+  border: 1px solid rgb(45 212 191);
+}
+
+section.contact-us #message {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+section.contact-us .submit {
+  background-color: rgba(63, 141, 98, 0.452);
+
+  padding: 0.75rem 2rem;
+  text-align: center;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-top: 1.2rem;
+  margin-bottom:1rem;
+  border: 1px solid rgb(63 63 70);
+}
+
+
+section.contact-us .submit:hover {
+  scale: 0.97;
+  background-color: rgb(0, 89, 255);
+  color: white;
+}
+
+/* =====================================
+  3- Responsive Design (media query)
+======================================== */
+@media (max-width: 1200px) {
+.ANIMATIONCONTACT{
+  display:none
+
+}
+}
+@media (max-width: 600px) {
+  section.contact-us .animation {
+    display: none;
+  }
+
+  section.contact-us form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+
+  section.contact-us form div.contparent {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  section.contact-us #email,
+  section.contact-us #message {
+    width: 100%;
+    margin-left: 0;
+    padding: 0.7rem 0;
+    margin-top: 1rem;
+  }
+
+  section.contact-us .submit {
+    width: 100%;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+}
+

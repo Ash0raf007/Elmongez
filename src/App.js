@@ -14,6 +14,7 @@ import About from './components/About/About';
 import Statics from "./components/Statics/Statics";
 import Footer from "./footer/Footer";
 import Call from "./Call";
+import Tansek from "./components/tansek/Tansek";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/derasa" element={<Derasa />} />
         <Route path="/tahkem" element={<Tahkem />} />
         <Route path="/statics" element={<Statics />} />
+        <Route path="/tansek" element={<Tansek />} />
         <Route path="/programming" element={<Prog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />

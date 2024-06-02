@@ -77,7 +77,12 @@ function NBAR() {
                     قسم الأحصاء
                     </Link>
                 </NavDropdown.Item>
-                
+                <NavDropdown.Item>
+                  <Link to="/tansek">
+                   قسم التنسيق والطباعه و الاخراج المطبعى 
+                    </Link>
+                </NavDropdown.Item>
+            
                 <NavDropdown.Item>
                   <Link to="/programming">قسم البرمجه</Link>
                 </NavDropdown.Item>
