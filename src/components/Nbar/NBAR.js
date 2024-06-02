@@ -79,7 +79,7 @@ function NBAR() {
                 </NavDropdown.Item>
                 <NavDropdown.Item>
                   <Link to="/tansek">
-                   قسم التنسيق والطباعه و الاخراج المطبعى 
+                    التنسيق والطباعه والاخراج المطبعى 
                     </Link>
                 </NavDropdown.Item>
             
