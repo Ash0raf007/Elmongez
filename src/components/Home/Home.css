@@ -85,4 +85,7 @@ justify-content: center;
   flex-wrap: wrap;
 
 }
+.text{
+font-weight: 400;
+}
 }
