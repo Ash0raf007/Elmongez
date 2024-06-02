@@ -7,7 +7,9 @@ function Tahkem() {
               <div className="container">
 
             <div className="intro">
-      <h1 style={{color:"white"}} className="txt">التحكيم العلمى و التشريعى</h1>
+      <h1 style={{color:"white"}} className="txt">
+      قسم التحكيم العلمى و النشر
+        </h1>
     </div>
     <div className="main">
 
@@ -18,9 +20,12 @@ function Tahkem() {
             <h4 className="name">{item.name}</h4>
           
           </summary>
+          {item.title1 && (
           <p className="title">&#9737;{item.title1}</p>
+          )}
+          {item.title2 && (
           <p className="title">&#9737;{item.title2} </p>
-
+          )}
           <a
             href="https://api.whatsapp.com/send?phone=201009625904"
             alt=""

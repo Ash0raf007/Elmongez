@@ -76,7 +76,15 @@ function Home() {
           </div>
           <div className="paper">
           <Link to="/tahkem">
-                    قسم التحكيم العلمى و التشريعى</Link>  
+          
+          
+          قسم التحكيم العلمى و النشر
+
+        
+
+          
+  
+                    </Link>  
           </div>
     
           <div className="paper">
