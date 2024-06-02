@@ -17,8 +17,10 @@ function Home() {
       </div>
 
       {/* <Slider/> */}
-      <h1>خدماتنا </h1>
+      <h3> &#x2734; خدماتنا &#x2734;</h3>
+      <hr />
 <h5 >يقدم المركز كافة الخدمات المتعلقة بالبحث العلمي وريادة الأعمال   </h5>
+    <hr />
       <div className="mini">
       <h6 className="hsub"> &#x2713; خدمات البحث العلمي </h6>
 
@@ -38,13 +40,18 @@ function Home() {
 </div>
 
       </div>
+      <hr />
+
       <div>
   <div className="sub2">
     <div>
   <h6 className="hsub"> &#x2713; ريادة الأعمال</h6>
+  
   </div>
   <p> &#8226; يقدم المركز دراسات الجدوى حول المشاريع الكبيرة والصغيرة </p>
 </div>
+<hr />
+
 <div className="sub3">
   <h6 className="hsub"> &#x2713; البرمجة</h6>
   <p>
@@ -52,6 +59,7 @@ function Home() {
 </div>
 
   </div>
+  <hr />
 
       <h1> الأقسام</h1>
       <div className="papers">
