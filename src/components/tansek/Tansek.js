@@ -1,13 +1,14 @@
 import React from 'react'
 import data from './data.json'
 import icon from "../../assets/icon.png";
+import './tansek.css'
 function Tansek() {
   return (
     <div className="contain">
     <div className="container">
 
       <div className="intro">
-      <h1 style={{color:"white"}} className="text">قسم التنسيق والطباعه و الاخراج المطبعى </h1>
+      <h1 style={{color:"white"}} className="text">التنسيق ,الطباعه والاخراج المطبعى </h1>
       </div>
       <div className="main">
 
