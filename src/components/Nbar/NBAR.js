@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./NBAR.css";
+import logo from '../../assets/logo.jpg'
 
 function NBAR() {
   useEffect(() => {
@@ -28,7 +29,9 @@ function NBAR() {
         <Navbar expand="lg" className="color">
           <Container fluid>
             <Navbar.Brand className="Side">
-              <Link to="/">المنجز للدراسات وريادة الأعمال</Link>
+              <Link to="/">
+              <img src={logo} width={140} height={50} alt="logo" className="logoimg"/>
+              </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
@@ -82,7 +85,7 @@ function NBAR() {
               <Navbar.Brand className="none">
                 <Link to="/">
                   <span style={{ color: "white" }}>
-                    المنجز للدراسات وريادة الأعمال{" "}
+<img src={logo} width={150} height={50} alt="logo" className="logoimg"/>
                   </span>
                   <img src="" alt="" />
                 </Link>

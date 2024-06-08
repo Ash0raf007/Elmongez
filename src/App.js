@@ -24,7 +24,7 @@ const App = () => {
 
           <Section/>
       <NBAR/>
-<Call/>
+{/* <Call/> */}
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tadkek" element={<Tadkek />} />

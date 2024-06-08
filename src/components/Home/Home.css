@@ -1,3 +1,15 @@
+.home{
+  background-image: url(../../assets/bghome.jpg);
+  padding-right: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(.3px);
+  -webkit-filter: blur(.3px);
+  height: auto;
+  padding-top: 10px;
+
+}
 .mini{
   display: flex;
 margin-top: 30px;

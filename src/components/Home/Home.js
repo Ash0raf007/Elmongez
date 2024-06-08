@@ -11,6 +11,7 @@ import Card4 from "../card4/Card4";
 function Home() {
 
   return (
+    <div className="home">
     <div className="container">
       <div className="intro">
         <p className="text" style={{fontWeight:"bold" }}>المنجز للدراسات وريادة الأعمال</p>
@@ -113,6 +114,7 @@ function Home() {
 
           </div>
 
+      </div>
       </div>
   );
 }
