@@ -2,6 +2,7 @@ import React from "react";
 import './About.css'
 const About = () => {
   return( 
+    <div className="about">
      <div className="container"
   style={{height:"100vh",marginTop:"10px"}}>
         <div className="intro">
@@ -29,7 +30,7 @@ const About = () => {
         <p className="Aboutinf">يقدم المركز كافة الخدمات المتعلقة بالبحث العلمي وريادة الأعمال</p>
 
   </div>
-
+  </div>
   
 
   )

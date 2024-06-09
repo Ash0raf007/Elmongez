@@ -13,7 +13,7 @@ import Contact from './components/Contact';
 import About from './components/About/About';
 import Statics from "./components/Statics/Statics";
 import Footer from "./footer/Footer";
-//import Call from "./Call";
+import Call from "./Call";
 import Tansek from "./components/tansek/Tansek";
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
 
           <Section/>
       <NBAR/>
-{/* <Call/> */}
+<Call/>
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tadkek" element={<Tadkek />} />

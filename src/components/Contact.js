@@ -10,7 +10,7 @@ const Contact = () => {
     
 <section className="contact-us" id="contactMe">
 <div className="intro">
-      <h1 style={{color:"white"}} className="text">
+      <h1 style={{color:"black",fontWeight:"300"}} className="text">
 راسلنا       </h1>
       </div>
       <p className="sub-title">
@@ -22,7 +22,7 @@ const Contact = () => {
 
 <div className="mailling">
           <div className="contparentt">
-            <label htmlFor="email"  >    بريدك الالكترونى  </label>
+            <label htmlFor="email"  style={{color:"black"}}>    بريدك الالكترونى  </label>
             <input required type="email" name="email" id="email" placeholder='example@example.com'/>
             <ValidationError 
         prefix="Email" 
@@ -32,7 +32,7 @@ const Contact = () => {
           </div>
 
           <div className="contparentt" style={{marginTop: "24px"}}>
-            <label htmlFor="message">رسالتك</label>
+            <label htmlFor="message" style={{color:"black"}}>رسالتك</label>
             <textarea required name="message" id="message" placeholder='اترك طلبك او استفسارك'></textarea>
             <ValidationError 
         prefix="Message" 

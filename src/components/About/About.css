@@ -1,3 +1,14 @@
+.about{
+  background-image: url(../../assets/bghome.jpg);
+  padding-right: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(.3px);
+  -webkit-filter: blur(.3px);
+  height: auto;
+  padding-top: 10px;
+}
 .Aboutinf{
   font-size: 20px;
 }
